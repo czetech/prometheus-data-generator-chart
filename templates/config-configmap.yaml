@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ include "prometheus-data-generator.fullname" . }}-config
+data:
+  config.yml: |
+    config:
+      {{- toYaml .Values.config | nindent 4 }}

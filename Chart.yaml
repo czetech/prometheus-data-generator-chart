@@ -1,0 +1,17 @@
+apiVersion: v2
+name: prometheus-data-generator
+version: 1.0.0
+kubeVersion: ">= 1.14.0-0"
+description: Create arbitrary data in Prometheus
+type: application
+keywords:
+- mock
+- prometheus
+home: https://github.com/little-angry-clouds/prometheus-data-generator
+sources:
+- https://gitlab.com/czetech/cortex-deploy-docs/-/tree/main/helm-charts/prometheus-data-generator
+maintainers:
+- name: Petr Czepiec
+  email: petr@czepiec.me
+  url: https://czepiec.me/
+appVersion: 0.2
